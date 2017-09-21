@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: Champagne;
-    src: url(cac_champagne.woff) format('woff'),
-        url(cac_champagne.ttf) format('trutype');
+  src: url(cac_champagne.woff) format('woff'), url(cac_champagne.ttf) format('trutype');
 }
 
 @font-face {
@@ -12,7 +11,7 @@
 
 @font-face {
   font-family: Dobkin;
-  src: url(DobkinPlain.woff) format('woff'),    url(DobkinPlain.ttf)format(truetype);
+  src: url(DobkinPlain.woff) format('woff'), url(DobkinPlain.ttf)format(truetype);
 }
 
 /*
@@ -72,7 +71,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-  text-decoration-color: white;
+  color: white;
   background-color: hsla(0, 0%, 42%, 0.4);
 }
 
@@ -93,7 +92,7 @@ h1 {
   padding-left: 20px;
 }
 
- section#play1{
+section#play1 {
   background-color: hsl(240, 100%, 88%);
 }
 
@@ -108,15 +107,16 @@ section#play3 {
 section#play4 {
   background-color: hsl(296, 86%, 86%);
 }
+
 section#play1 h1 {
   font-family: Champagne, Helvetica;
 }
 
-section#play2{
+section#play2 {
   font-family: Grunge, 'Times New Roman', Times, serif;
 }
 
-section#play3  {
+section#play3 {
   font-family: Impact, Charcoal, sans-serif;
 }
 
